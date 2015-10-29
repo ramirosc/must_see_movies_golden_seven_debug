@@ -3,7 +3,7 @@ class ActorsController < ApplicationController
     @actors = Actor.all
   end
 
-  def show
+  def show_details
     @actor = Actor.find(params[:id])
   end
 
