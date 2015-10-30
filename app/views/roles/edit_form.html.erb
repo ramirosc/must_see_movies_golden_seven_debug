@@ -19,7 +19,7 @@
       Movie
     </label>
     <div class="col-sm-10">
-      <%= select_tag(:movie_id, options_from_collection_for_select(Movie.all, :id, :title, @role.movie_id), :class => "form-control") %>
+     <%= select_tag(:movie_id, options_from_collection_for_select(Movie.all, :id, :title, @role.movie_id), :class => "form-control") %>
     </div>
   </div>
 
